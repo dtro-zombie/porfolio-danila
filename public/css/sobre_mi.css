@@ -1,0 +1,29 @@
+.perfil
+{
+    text-align: center;
+    width: 30%;
+    height: 30%;
+}
+
+.sobre-mi
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:  space-around;
+    align-items: center;
+    align-content: center;
+    padding-top: 100PX;
+
+}
+.container{
+    
+    height: 95vh;
+}
+
+.descripcion{
+    width: 30%;
+}
+h5{
+    padding: 10px;
+}
