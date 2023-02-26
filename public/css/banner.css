@@ -1,32 +1,51 @@
-#banner
-{
-    margin-top: 50px;
-    
-    
-}
-
-#banner img
-{
-   
-    width: 100%;
+.inicio{
+    background: linear-gradient(to top, rgba(30,35,38,0), rgba(30,35,38,.4)),
+    url(../img/fondo.jpg);
+    background-size: cover;
     height: 100vh;
-    
+    color: #000000;
+    display: flex;
+    align-items: center;
 }
-
-#banner .contenedor
-{
-    position: absolute;
-    top:50%;
-    left:50%;
-    color:#fff;
+.inicio .contenido-banner{
+    padding: 20px;
     
+    background-color: rgba(244, 246, 247, 0.463);
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
 }
-
-
-
-
-<<<<<<< HEAD
-=======
-
-
->>>>>>> feature/sobre_mi
+.inicio .contenido-banner img{
+    margin-top: 40px;
+    border: 10px solid #007bff;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+.inicio .contenido-banner h1{
+    margin-top: 40px;
+    font-size: 42px;
+    font-family: 'Righteous';
+}
+.inicio .contenido-banner h2{
+    font-size: 15px;
+    font-weight: normal;
+}
+.inicio .contenido-banner .redes a{
+    color: #000000;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #007bff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+.inicio .contenido-banner .redes a:hover{
+    background-color: #007bff;
+}
