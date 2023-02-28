@@ -1,7 +1,7 @@
 .contacto{
     background-image: url(img/contact_bg.png);
-    background-color: #1e2326;
-    color: #fff;
+    background-color: #F4F6F7;
+    color: #000000;
     padding: 50px 0;
 }
 .contacto .contenido-seccion{
@@ -28,20 +28,20 @@
     padding: 18px;
     border: none;
     margin-bottom: 20px;
-    background-color: #252A2E;
-    color: #fff;
+    background-color: #ECF0F1;
+    color: #000000;
     font-size: 18px;
 }
 .contacto button{
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 2px solid #000000;
     width: fit-content;
     display: block;
     margin: 20px auto;
     padding: 10px 22px;
     font-size: 16px;
-    color: #fff;
+    color: rgb(0 0 0);;
     position: relative;
     z-index: 10;
 }
@@ -51,7 +51,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #007bff;
     z-index: -1;
     transition: 1s;
 }
@@ -64,7 +64,7 @@
 .contacto .col .info{
     position: absolute;
     top: 40%;
-    background-color: #252A2E;
+    background-color: #F4F6F7;
     padding: 20px;
     max-width: 350px;
     left: 50%;
@@ -77,7 +77,7 @@
     margin-bottom: 20px;
 }
 .contacto .col .info ul li i{
-    color: #1CB698;
+    color: #007bff;
     display: inline-block;
     margin-right: 20px;
 }
