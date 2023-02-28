@@ -11,14 +11,14 @@
         position: absolute;
         right: 0;
         top: 75px;
-        background-color: #252A2E;
+        background: rgb(244, 246, 247);
         width: 180px;
     }
     nav.responsive ul{
         display: block !important;
     }
     nav.responsive ul li{
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid #007bff;
         padding: 10px 0;
     }
 }
